@@ -1,0 +1,140 @@
+html {
+  font-size-adjust: auto
+}
+body {
+  background: white;
+  font-family: monospace;
+}
+p {
+  color: black;
+}
+
+.bar {
+  background-color: darkslateblue;
+  color: white;
+  padding: 5px 15px;
+  font-family: monospace;
+  font-weight: bolder;
+  text-decoration: none;
+
+}
+.bar:hover {
+  background-color: #000024;
+  color: lightgray;
+  text-decoration: underline;
+}
+.pageTitle {
+display: inline-block;
+vertical-align: middle;
+color: white;
+background-color: maroon;
+font-family: monospace;
+font-weight: bold;
+}
+.pageTitle:hover {
+  color: lightgray;
+  background-color: black;
+  font-family: monospace;
+  font-weight: bold;
+}
+.boarder {
+border: none;
+color: black
+font-family: monospace;
+font-weight: bolder;
+}
+.credit {
+color: blue
+font-family: monospace;
+font-size: 9px;
+text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+.title {
+  font-weight: 1000;
+  font-family: monospace;
+  color: darkblue;
+  border-color: black;
+  border-bottom-width: thick;
+  font-size: 50px;
+  text-decoration: none;
+}
+.title:hover {
+  text-decoration: underline
+}
+.submit {
+  background-color: blueviolet;
+  color: white;
+  font-family:monospace;
+}
+.sign {
+  font-family:monospace;
+  font-weight:bold;
+}
+form {
+  border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.loginbutton {
+  background-color: #0d0d64;
+  color: white;
+  padding: 14px 20px 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.loginbutton:hover {
+  background-color: #08083d;
+  color: lightgray;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+h3 {
+  font-family: monospace;
+  font-weight: normal
+}
